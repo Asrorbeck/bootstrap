@@ -23,7 +23,7 @@ function renderFilm(array, wrapper) {
         elImg.src = `https://img.youtube.com/vi/${array[i].ytid}/mqdefault.jpg`;
         
         var cardWrapper = document.createElement("div");
-        cardWrapper.setAttribute("class", "p-0 pb-3 col-5 mb-3 border border-1 border-dark");
+        cardWrapper.setAttribute("class", "p-0  col-6 mb-3 border border-1 border-dark");
         cardWrapper.appendChild(elImg);
         cardWrapper.appendChild(wrapperDiv);
         
